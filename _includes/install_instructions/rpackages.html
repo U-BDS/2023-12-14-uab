@@ -1,0 +1,63 @@
+<div id="rpackages">
+  <h3>R Packages</h3>
+
+  <p>
+    <a href="https://www.r-project.org">R</a> has a variety of existing 
+    and pre-built packages that ease the burden of analysis. We will be
+    using a few of these packages to complete the lesson taught at this 
+    workshop. 
+    <br><br>Please only complete this step <strong>AFTER</strong> 
+    successfully installing R and Rstudio above
+  </p>
+  <div>
+    <ul class="nav nav-tabs" role="tablist">
+      <li role="presentation" class="active"><a data-os="general" href="#rpackages-general" aria-controls="general" role="tab" data-toggle="tab">General</a></li>
+    </ul>
+
+  <div>
+    <div class="tab-content">
+      <article role="tabpanel" class="tab-pane active" id="rpackages-general">
+        <p>
+        <ol>
+            <li>Open RStudio</li>
+            <li>In the large window (known as the 'Source Code Panel') type the below commands:
+                <pre>
+<code># Install the tidyverse package:
+install.packages("tidyverse")
+
+# Install the ggplot2 package
+install.packages("ggplot2")
+
+# install the dplyr package
+install.packages('dplyr')
+</code>
+                </pre>
+            </li>
+            <li>Run each command by highlighting each line one at a time
+                and clicking the 'Run' button that is located near 
+                the top-right of the 'Source Code Panel'
+                (NOTE: The exact location may differ dependent on the OS 
+                you are using, but the button should still be visible 
+                around the 'Source Code Panel'). Repeat this for each line
+                that was typed in the above step</li>
+            <li> Once installation has completed for all packages, type
+                 the below commands to make sure packages installed correctly:
+                <pre>
+<code>library("dplyr")
+library("ggplot2")
+</code>
+                </pre>
+            </li>
+            <li>Run these commands similar to the steps described above, 
+                highlight each line and click the 'Run' button 
+                individually for each line.</li>
+            <li> If everything worked correctly, you will not see any 
+                 output from the 'Console' panel located in your RStudio 
+                 window other than seeing the command copied on each line
+            </li>
+        </ol>
+        </p>
+      </article>
+    </div>
+  </div>
+</div>
